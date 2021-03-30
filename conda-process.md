@@ -319,3 +319,14 @@ Export-ModuleMember `
         Enter-CondaEnvironment, Exit-CondaEnvironment, `
         TabExpansion, prompt
 ```
+
+Net Result is to prepend this to $ENV:Path
+```
+C:\PROGRA~1\Continuum\Anaconda3;
+C:\PROGRA~1\Continuum\Anaconda3\Library\mingw-w64\bin;
+C:\PROGRA~1\Continuum\Anaconda3\Library\usr\bin;
+C:\PROGRA~1\Continuum\Anaconda3\Library\bin;
+C:\PROGRA~1\Continuum\Anaconda3\Scripts;
+C:\PROGRA~1\Continuum\Anaconda3\bin;
+C:\Program Files\Continuum\Anaconda3\condabin;
+```
