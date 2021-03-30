@@ -1,15 +1,20 @@
 Anaconda Powershell Prompt is a shortcut to:
-`%windir%\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy ByPass -NoExit -Command "& 'C:\PROGRA~1\Continuum\Anaconda3\shell\condabin\conda-hook.ps1' ; conda activate 'C:\PROGRA~1\Continuum\Anaconda3' "`
+```
+%windir%\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy ByPass -NoExit -Command "& 'C:\PROGRA~1\Continuum\Anaconda3\shell\condabin\conda-hook.ps1' ;
+conda activate 'C:\PROGRA~1\Continuum\Anaconda3' "
+````
 
 conda-hook.ps1 is:
-```$Env:CONDA_EXE = "C:/Program Files/Continuum/Anaconda3\Scripts\conda.exe"
+```
+$Env:CONDA_EXE = "C:/Program Files/Continuum/Anaconda3\Scripts\conda.exe"
 $Env:_CE_M = ""
 $Env:_CE_CONDA = ""
 $Env:_CONDA_ROOT = "C:/Program Files/Continuum/Anaconda3"
 $Env:_CONDA_EXE = "C:/Program Files/Continuum/Anaconda3\Scripts\conda.exe"
 
 Import-Module "$Env:_CONDA_ROOT\shell\condabin\Conda.psm1"
-Add-CondaEnvironmentToPrompt```
+Add-CondaEnvironmentToPrompt
+```
 
 Conda.psm1 is:
 ```
