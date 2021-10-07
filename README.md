@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @sahild11
 - 👀 I’m interested in data analysis and shell tools
-- 🌱 I’m currently learning Julia
+- 🌱 I’m currently learning Perl, lisp, Rust, and JavaScript
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
